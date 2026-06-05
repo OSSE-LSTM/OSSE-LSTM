@@ -9,8 +9,7 @@ The repository also includes a **Counterfactual Integrated Gradients (C-IG)** mo
 
 ## Architecture Overview
 
-<img width="11020" height="6710" alt="architecture" src="https://github.com/user-attachments/assets/b2dce537-4798-491c-a1d9-b53f87d148bd" />
-
+<img width="10910" height="6610" alt="architecture" src="https://github.com/user-attachments/assets/00872fb6-4527-4bf6-bc96-d273fd0f4620" />
 
 The full pipeline consists of two main phases.
 
