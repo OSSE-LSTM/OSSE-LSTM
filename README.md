@@ -117,6 +117,7 @@ To train the model in a 2-shot setting, run:
 bash train_proto.sh 0 2 os_cnn ./train.py 2
 ```
 
+> **Code availability note:** The source file `train.py` has been hidden in this anonymous repository. The full code will be made public after acceptance of the paper.
 Example meaning of the command:
 
 ```text
@@ -160,6 +161,7 @@ After training, run:
 python ./interpretability.py
 ```
 
+> **Code availability note:** The source file `interpretability.py` has been hidden in this anonymous repository. The full code will be made public after acceptance of the paper.
 This script loads a trained checkpoint and applies **Counterfactual Integrated Gradients (C-IG)** to extract class-specific temporal attribution maps.
 
 C-IG works by:
@@ -198,6 +200,7 @@ To run C-IG-guided test-time augmentation, use:
 bash train_proto.sh 0 2 os_cnn ./test_time_aug.py 2
 ```
 
+> **Code availability note:** The source file `test_time_aug.py` has been hidden in this anonymous repository. The full code will be made public after acceptance of the paper.
 This evaluates the trained model with prototype refinement at inference time.
 
 The procedure is:
